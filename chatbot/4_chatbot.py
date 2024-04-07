@@ -7,7 +7,6 @@ def main():
 
     counter += 1
     user_input = st.text_input("You:", key=f"user_input_{counter}")
-
     if user_input:
         response = chatbot(user_input)
         st.text_area("Chatbot:", value=response, height=100, max_chars=None, key=f"chatbot_response_{counter}")
