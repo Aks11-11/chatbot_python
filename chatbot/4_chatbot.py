@@ -3,8 +3,6 @@ counter = 0
 
 def chatbot(user_input):
     pass
-
-
 def main():
     global counter
     st.title("Chatbot")
